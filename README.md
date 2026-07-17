@@ -19,37 +19,6 @@ because **“someone else will handle that layer” is not an architecture.**
 
 ---
 
-## `ziad.config.ts`
-
-```ts
-const ziad = {
-  role: "Software Engineer",
-
-  builds: [
-    "Enterprise platforms",
-    "Document intelligence systems",
-    "LLM applications",
-    "Infrastructure that works outside localhost"
-  ],
-
-  worksAcross: [
-    "Frontend",
-    "Backend",
-    "Databases",
-    "AI pipelines",
-    "Cloud",
-    "On-prem infrastructure"
-  ],
-
-  defaultApproach: "Understand every layer",
-  preferredStartingPoint: "From scratch",
-  openSourceRelationship: "Healthy, according to me",
-  knownIssue: "Occasionally over-engineers",
-};
-```
-
----
-
 ## Some Numbers GitHub Collected Without My Permission
 
 <p align="center">
@@ -81,20 +50,6 @@ AI agents, local and hosted language models, retrieval pipelines, document-aware
 applications, model-serving workflows, and production-oriented experimentation.
 I care less about producing another chatbot demo and more about building systems
 that remain useful after the notebook closes.
-
----
-
-## Education & Research
-
-**M.S. Computer Science — Artificial Intelligence**  
-University of the Potomac
-
-**B.S. Computer Engineering**  
-University of Tripoli
-
-Published research on a blockchain-based electronic voting system using
-Proof of Work, elliptic-curve signatures, SHA-256, Redis, Node.js, React,
-and test-driven development.
 
 ---
 
