@@ -2,59 +2,44 @@
 
 # ZIAD SALEM
 
-### Software Engineer · Applied AI · Cloud Infrastructure
-
-`Enterprise Platforms` · `Document Intelligence` · `LLM Systems`
-
-<br>
-
-I build systems from the database to the model to the deployment—  
-because **“someone else will handle that layer” is not an architecture.**
-
-**From-scratch enjoyer · Open-source power user · Occasional dependency hoarder**
-
-<sub>Full-stack, full-pipeline, occasionally full of myself.</sub>
+`software engineer` · `applied ai` · `cloud & infrastructure`
 
 </div>
 
 ---
 
-## Some Numbers GitHub Collected Without My Permission
+```console
+$ whoami
+ziad_salem :: builds from the database → to the model → to the deployment
+
+$ cat ~/.philosophy
+"someone else will handle that layer" is not an architecture.
+
+$ groups ziad
+from-scratch-enjoyer   open-source-power-user   dependency-hoarder(recovering)
+
+$ uptime
+full-stack, full-pipeline, occasionally full of himself — 0 layers skipped
+```
+
+## `~$ ./stats.sh --collected-without-my-permission`
 
 <p align="center">
   <img src="./github-metrics.svg" alt="Ziad Salem's GitHub metrics" width="480" />
 </p>
 
----
+## `~$ ls -la ~/work`
 
-## What I Actually Build
+```bash
+drwxr-xr-x  document-intelligence/   # arabic + english OCR → layout → structured JSON, for RAG & agents
+drwxr-xr-x  enterprise-platforms/    # gov ERP: HR · payroll · finance · procurement · inventory · on-prem
+drwxr-xr-x  llm-systems/             # agents · local + hosted models · ollama · rag · model serving
+drwxr-xr-x  infrastructure/          # servers · networking · deploy · backup · recovery · prod handoff
+-rw-r--r--  blockchain-evoting.md    # PoW · ECC · SHA-256 · ~188 jest tests · IEEE paper
+```
 
-### Document Intelligence
+## `~$ cat exit.txt`
 
-Arabic and English document-processing pipelines combining OCR, layout analysis,
-structured extraction, and machine-learning inference. The output is designed for
-downstream systems such as RAG pipelines, AI agents, enterprise search, document
-automation, and structured data extraction.
-
-### Enterprise Platforms
-
-Modular enterprise systems involving backend APIs, databases, frontend
-applications, HR, finance, inventory, correspondence, archiving, project
-management, and operational workflows. I have worked across development,
-deployment, server configuration, database setup, validation, troubleshooting,
-backup, recovery, and production handoff.
-
-### LLM and AI Systems
-
-AI agents, local and hosted language models, retrieval pipelines, document-aware
-applications, model-serving workflows, and production-oriented experimentation.
-I care less about producing another chatbot demo and more about building systems
-that remain useful after the notebook closes.
-
----
-
-<div align="center">
-
-Build it. Break it. Understand it. Deploy it properly.
-
-</div>
+```
+build it. break it. understand it. deploy it properly.
+```
