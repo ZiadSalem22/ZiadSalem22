@@ -8,25 +8,36 @@
 
 ---
 
+<table>
+<tr>
+<td valign="top">
+
 ```console
 $ whoami
-ziad_salem :: builds from the database → to the model → to the deployment
+ziad_salem — software engineer
 
 $ cat ~/.philosophy
-"someone else will handle that layer" is not an architecture.
+"someone else will handle
+ that layer" is not
+ an architecture.
 
 $ groups ziad
-from-scratch-enjoyer   open-source-power-user   dependency-hoarder(recovering)
+from-scratch-enjoyer
+open-source-power-user
+dependency-hoarder(recovering)
 
 $ uptime
-full-stack, full-pipeline, occasionally full of himself — 0 layers skipped
+occasionally full of himself
 ```
 
-## `~$ ./stats.sh --collected-without-my-permission`
+</td>
+<td valign="top">
 
-<p align="center">
-  <img src="./github-metrics.svg" alt="Ziad Salem's GitHub metrics" width="480" />
-</p>
+<img src="./github-metrics.svg" alt="Ziad Salem's GitHub metrics" width="400" />
+
+</td>
+</tr>
+</table>
 
 ## `~$ ls -la ~/work`
 
