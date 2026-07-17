@@ -32,10 +32,7 @@ jobs:
           user: ZiadSalem22
           filename: github-metrics.svg
 
-          base: header, activity, community, repositories
-          base_indepth: yes
-
-          config_display: columns
+          base: header
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
