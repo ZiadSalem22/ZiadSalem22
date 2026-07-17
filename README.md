@@ -22,7 +22,7 @@ because **“someone else will handle that layer” is not an architecture.**
 ## Some Numbers GitHub Collected Without My Permission
 
 <p align="center">
-  <img src="./github-metrics.svg" alt="Ziad Salem's GitHub metrics" width="100%" />
+  <img src="./github-metrics.svg" alt="Ziad Salem's GitHub metrics" width="480" />
 </p>
 
 ---

@@ -33,6 +33,9 @@ jobs:
           filename: github-metrics.svg
 
           base: header
+          # Hide the header's left column (Joined GitHub… / Followed by…),
+          # keeping avatar, name, mini-calendar and "Contributed to N repos".
+          extras_css: ".items-wrapper > section:first-child .row > section:first-child { display: none; }"
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
