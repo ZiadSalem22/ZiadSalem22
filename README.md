@@ -1,6 +1,6 @@
 <div align="center">
 
-# ZIAD SALEM
+# ZIYAD SALEM
 
 `software engineer` · `applied ai` · `cloud & infrastructure`
 
@@ -14,14 +14,14 @@
 
 ```console
 $ whoami
-ziad_salem — software engineer
+ziyad_salem — software engineer
 
 $ cat ~/.philosophy
 "someone else will handle
  that layer" is not
  an architecture.
 
-$ groups ziad
+$ groups ziyad
 from-scratch-enjoyer
 open-source-power-user
 dependency-hoarder(recovering)
@@ -33,7 +33,7 @@ occasionally full of himself
 </td>
 <td valign="top">
 
-<img src="./github-metrics.svg" alt="Ziad Salem's GitHub metrics" width="400" />
+<img src="./github-metrics.svg" alt="ziyad Salem's GitHub metrics" width="400" />
 
 </td>
 </tr>
