@@ -18,8 +18,7 @@ ziyad_salem — software engineer
 
 $ cat ~/.philosophy
 "someone else will handle
- that layer" is not
- an architecture.
+ that layer" is not in my book.
 
 $ groups ziyad
 from-scratch-enjoyer
@@ -46,7 +45,7 @@ drwxr-xr-x  document-intelligence/   # arabic + english OCR → layout → struc
 drwxr-xr-x  enterprise-platforms/    # gov ERP: HR · payroll · finance · procurement · inventory · on-prem
 drwxr-xr-x  llm-systems/             # agents · local + hosted models · ollama · rag · model serving
 drwxr-xr-x  infrastructure/          # servers · networking · deploy · backup · recovery · prod handoff
--rw-r--r--  blockchain-evoting.md    # PoW · ECC · SHA-256 · ~188 jest tests · IEEE paper
+-rw-r--r--  blockchain-evoting.md    # voting . p2p . transparency 
 ```
 
 ## `~$ cat exit.txt`
