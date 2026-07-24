@@ -41,7 +41,7 @@ occasionally full of himself
 ## `~$ ls -la ~/work`
 
 ```bash
-drwxr-xr-x  document-intelligence/   # arabic + english OCR → layout → structured JSON, for RAG & agents
+drwxr-xr-x  document-intelligence/   # arabic + english layout → OCR → structured JSON, for RAG & agents
 drwxr-xr-x  enterprise-platforms/    # gov ERP: HR · payroll · finance · procurement · inventory · on-prem
 drwxr-xr-x  llm-systems/             # agents · local + hosted models · ollama · rag · model serving
 drwxr-xr-x  infrastructure/          # servers · networking · deploy · backup · recovery · prod handoff
