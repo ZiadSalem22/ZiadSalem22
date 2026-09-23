@@ -8,10 +8,6 @@
 
 ---
 
-<table>
-<tr>
-<td valign="top">
-
 ```console
 $ whoami
 ziyad_salem — software engineer
@@ -29,14 +25,9 @@ $ uptime
 occasionally full of himself
 ```
 
-</td>
-<td valign="top">
-
-<img src="./github-metrics.svg" alt="ziyad Salem's GitHub metrics" width="400" />
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="./github-metrics.svg" alt="Ziad Salem's rolling one-year isometric GitHub contribution calendar and activity statistics" width="720" />
+</p>
 
 ## `~$ ls -la ~/work`
 

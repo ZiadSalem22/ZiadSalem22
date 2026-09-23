@@ -25,6 +25,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Validate metrics token
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [[ -z "$GH_TOKEN" ]]; then
+            echo "::error::METRICS_TOKEN is missing. Replace the repository secret."
+            exit 1
+          fi
+
+          if ! login="$(gh api user --jq .login 2>/dev/null)"; then
+            echo "::error::METRICS_TOKEN is invalid or expired. Replace the repository secret."
+            exit 1
+          fi
+
+          if [[ "$login" != "ZiadSalem22" ]]; then
+            echo "::error::METRICS_TOKEN must belong to ZiadSalem22."
+            exit 1
+          fi
+
       - name: Generate profile metrics
         uses: lowlighter/metrics@v3.34
         with:
@@ -38,4 +57,4 @@ jobs:
           extras_css: ".items-wrapper > section:first-child .row > section:first-child { display: none; }"
 
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
